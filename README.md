@@ -5,7 +5,7 @@
 ..: 1/1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 ... + 1/n-1 + 1/n
 Ok So remember that the harmonic series DIVERGES to infinity.
 This is because 1/n^P where P = 1 (in this case)
-P >= 1 : DIV
+P >= 1 : DIV // Diverge
 P < 1 : CVG
 ![Harmonic Series to n = 100](image.png)
 
