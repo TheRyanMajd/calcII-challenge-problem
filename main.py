@@ -1,10 +1,12 @@
 import numpy as np
 from math import e
 ln2 = np.emath.logn(e, 2)
-delta = ln2;
+delta = ln2
 isAlternative = False
-m = 10 # m changes the amount of print statements made per additional term
-CEIL = 100001 # The highest number of terms that the print goes to
+m = 1  # m changes the amount of print statements made per additional term
+CEIL = 10  # The highest number of terms that the print goes to
+
+
 def summation(n):
     partial_sum = 0.0
     for i in range(1, n + 1):
@@ -12,14 +14,17 @@ def summation(n):
     return partial_sum
 
 # not compeleted yet
+
+
 def altSummation(n):
     partial_sum = 0.0
     for i in range(1, n + 1):
         if i % 2 == 1:
             partial_sum += 1.0 / i
-        else: 
+        else:
             partial_sum -= 1.0 / i
     return partial_sum
+
 
 for i in range(1, CEIL):
     if (not isAlternative):
@@ -30,14 +35,7 @@ for i in range(1, CEIL):
         result = altSummation(i)
         if i % m == 0:  # Print every 1000 terms for better readability
             # np.log(2, e)
-             delta = abs(result - ln2)  # Calculate the absolute difference
-        output = "Partial Alternative Harmonic Sum ({} terms): {:.10f}, ln(2): {:.5f}, Delta: {:.10f}".format(i, result, ln2, delta)
+            delta = abs(result - ln2)  # Calculate the absolute difference
+        output = "Partial Alternative Harmonic Sum ({} terms): {:.10f}, ln(2): {:.7f}, Δ: {:.10f}".format(
+            i, result, ln2, delta)
         print(output)
-        
-        
-
-# harmonic_sum = 0.0
-# for i in range(1, n + 1):
-#     harmonic_sum += 1.0 / i
-
-# print("Partial Harmonic Sum ({} terms): {:.4f}".format(n, harmonic_sum)
