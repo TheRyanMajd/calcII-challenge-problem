@@ -26,7 +26,7 @@ def altSummation(n):
     return partial_sum
 
 
-for i in range(1, CEIL):
+for i in range(1, CEIL + 1):
     if (not isAlternative):
         result = summation(i)
         if i % m == 0:  # Print every 1000 terms for better readability
