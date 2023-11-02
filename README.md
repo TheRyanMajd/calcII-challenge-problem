@@ -8,22 +8,23 @@
 
 $$(\sum_{n=1}^{\infty} \frac{1}{n})$$
 
-$$ (\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8} + \ldots + \frac{1}{n-1} + \frac{1}{n})$$
+$$ (\frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8} + \ldots + \frac{1}{n-1} + \frac{1}{n}...)$$
 
 Remember that the harmonic series DIVERGES to infinity.
-<span></span>This is because $\frac{1}{n^P}$ where $P = 1$
+This is because
+$$(\sum_{n=1}^{\infty} \frac{1}{n}) => \sum_{n=1}^{\infty} \frac{1}{n^P}$$ where $P = 1$
 
 <span></span> $P \ge 1$ : Diverge
 
 $P < 1$ : Converge
 
-![Harmonic Series to n = 100](image.png)
+![Harmonic Series to n = 100 by Jim Voss](image.png)
 
 ## Alternating Harmonic Series:
 
 $$(\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n}) $$
 
-$$ (\frac{1}{1} - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} + \frac{1}{7} - \frac{1}{8} + \ldots +-)$$
+$$ (\frac{1}{1} - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} + \frac{1}{7} - \frac{1}{8} + \ldots +-\ldots)$$
 
 ### Splitting Apart the Series into Two Groups
 
@@ -34,7 +35,7 @@ $$ (\frac{1}{1} - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{
 
 The Alternating Series Test supports the convergence.
 
-![Alternating Series to n = 50](image-1.png)
+![Alternating Series to n = 50 by Jim Voss](image-1.png)
 
 ## Contributions
 
@@ -42,3 +43,7 @@ Contributions by:
 
 - Ryan Majd
 - Abigail Clark
+- Jim Voss
+
+https://www.geogebra.org/m/fGKxsUp4
+https://www.geogebra.org/m/FBaEmDy7
